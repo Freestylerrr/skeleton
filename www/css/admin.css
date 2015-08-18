@@ -1,0 +1,274 @@
+/*!
+ * Start Bootstrap - SB Admin Bootstrap Admin Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+@font-face {
+    font-family: MyriadPro;
+    src: url("../fonts/MyriadPro.ttf"), url("../font/MyriadPro.eot");
+}
+
+html {
+    font-family: MyriadPro;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100;
+
+}
+body {
+    
+    background-image:url("../images/main_bg.png");
+    font-size:14px;
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color:black;
+     
+}
+
+#logo-top {
+    width:250px;
+    height:64px;
+    padding-top:32px;
+    padding-left:20px;
+}
+
+#wrapper {
+   padding-left: 225px;
+}
+
+#page-wrapper {
+    min-height:900px; 
+    background-color: #fff;
+    padding:10px;
+   
+}
+
+#page-wrapper-border {
+   padding: 15px;
+   border:1px solid rgba(211, 222, 51,1); 
+   
+}
+.page-header {
+    margin-top:-5px;
+}
+
+.signflash,.homeflashinfo
+{
+text-align:center;
+font-weight: bolder;
+color: red;
+width:350px;
+height:30px;
+ 
+}
+/*Sign In style */
+
+#signInwrapper {
+    margin:0 auto;
+    width:350px;
+    height:215px;
+    border: 3px solid #395C7C; 
+    border-radius: 15px; 
+    color: black;     
+    background-color:#E5E6E8;
+    box-shadow: 0px 0px 4px 3px #888888;
+    margin-top: 30px;
+}
+
+.signInFormInside {
+  
+    margin:0 auto;
+    text-align:center;
+    font-size:16px;
+    padding:5px
+   
+
+}
+#signHeading {
+    height:35px;
+    padding-left:15px;
+    padding-top:8px;
+    margin-bottom: 10px;
+    font-size:25px;
+    background-color: #3C89D7;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+   
+}
+
+.signInFormInside td {
+    padding-top:8px;
+}
+
+.signInBox {
+    background-color: #D7D7D7;
+    border-radius: 10px; 
+    padding:10px;
+    width:330px;
+    text-align:center;
+}
+.left {
+    text-align:left;
+    
+}
+.right {
+    text-align:right;
+    
+}
+
+/* Top panel */
+#top-panel {
+    
+
+    color:white;
+   
+}
+
+/* Right button panel */
+
+.right-button-panel {
+  
+    width:100%;
+    border:1px solid rgba(211, 222, 51,1);
+    margin-bottom:10px;
+}
+
+.right-button-panel-icons {
+    text-align:right;
+    padding:10px;
+  
+}
+
+/* Dropdown menu style */
+
+.container1 {
+
+    float:right;
+    margin-top:-50px;
+    margin-right:40px;
+
+}
+
+.arrow {
+padding-bottom:2px;
+margin-left:5px;
+}
+/* Dashboard style */
+
+#dashboard-main  {
+}
+  
+.tg {     
+    border-spacing: 5px;
+    font-weight: normal;
+    table-layout: fixed;
+    
+       
+}
+       
+.tg th { 
+    width:115px;
+    overflow:hidden;
+    word-break:normal;
+    border:1px solid rgba(211, 222, 51,1); 
+    padding:8px;
+    margin:5px;
+   
+   
+}
+
+.tg a {
+   display:block;
+   height:100%;
+   width:100%; 
+ 
+}
+
+.tg a:hover {
+    color:rgba(211, 222, 51,1);
+    
+    
+}
+
+#left-menu {
+    
+    float:left;
+    width:223px;
+    height:auto;
+    color:white;
+    padding:0px;
+    border-top:2px solid;
+    border-left:2px solid;
+    border-color:rgba(211, 222, 51,1);
+    
+    
+   
+}
+#left-menu a {
+color:white;
+display:block;
+height:40px;
+}
+#left-menu ul {
+     list-style-type: none;
+     padding:0px;
+     margin:0px;
+    
+}   
+
+#left-menu li {
+    
+    background-color:rgba(93, 93, 93, 0.90);
+    border-bottom:1px solid rgba(211, 222, 51,1);  
+    padding-left:20px;
+    padding-top:20px;  
+    transition: background .25s ease-in-out;
+   -moz-transition: background .25s ease-in-out;
+   -webkit-transition: background .25s ease-in-out;
+   
+    
+}
+
+#left-menu li:hover {
+background-color:lightgrey;
+
+}
+
+
+/* Users */
+
+.users {
+    width:100%;
+    text-align:center;
+    border:1px black solid;
+    border-collapse:inherit;
+    
+    
+}
+
+.users td {
+    border: 1px black solid;
+    
+}
+/* Users table heading */
+
+.users-table-heading {
+    background-color:gray;
+    border:1px black solid;
+   
+        
+}
+
+/* Users heading */
+.user-heading {
+    float:left;
+    padding: 10px;
+}
